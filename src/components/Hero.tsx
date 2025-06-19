@@ -1,11 +1,19 @@
 
 import { motion } from "framer-motion";
-import { ArrowDown, Github, Linkedin } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Download } from "lucide-react";
 import { ThreeBackground } from "./ThreeBackground";
 
 export const Hero = () => {
   const scrollToSection = (id: string) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const downloadResume = () => {
+    // Create a downloadable resume link
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // You'll need to add this file to your public folder
+    link.download = 'Kishor_Resume.pdf';
+    link.click();
   };
 
   return (
@@ -65,10 +73,12 @@ export const Hero = () => {
             </motion.button>
             
             <motion.button
-              className="px-8 py-3 border border-slate-600 text-slate-300 rounded-full font-semibold hover:bg-slate-800 transition-all"
+              onClick={downloadResume}
+              className="px-8 py-3 border border-slate-600 text-slate-300 rounded-full font-semibold hover:bg-slate-800 transition-all flex items-center gap-2"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
+              <Download size={20} />
               Download Resume
             </motion.button>
             
