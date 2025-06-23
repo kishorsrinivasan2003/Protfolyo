@@ -4,30 +4,30 @@ import { motion } from "framer-motion";
 export const Skills = () => {
   const skillCategories = [
     {
-      title: "Development",
+      title: "Core Skills",
       skills: [
-        { name: "React/Next.js", level: 95 },
-        { name: "Node.js", level: 90 },
-        { name: "TypeScript", level: 88 },
-        { name: "Python", level: 85 },
+        { name: "Teamwork", level: 95 },
+        { name: "Problem-solving", level: 90 },
+        { name: "Leadership", level: 88 },
+        { name: "Willingness to learn", level: 95 },
       ]
     },
     {
-      title: "Design Tools",
+      title: "Technical Skills",
       skills: [
-        { name: "Figma", level: 92 },
-        { name: "Adobe XD", level: 85 },
-        { name: "Photoshop", level: 80 },
-        { name: "Illustrator", level: 75 },
+        { name: "Electronics & Communication", level: 85 },
+        { name: "UI/UX Design", level: 80 },
+        { name: "Web Development", level: 75 },
+        { name: "Project Management", level: 80 },
       ]
     },
     {
-      title: "Other Tools",
+      title: "Professional Tools",
       skills: [
-        { name: "Git/GitHub", level: 90 },
-        { name: "Docker", level: 80 },
-        { name: "AWS", level: 75 },
-        { name: "MongoDB", level: 85 },
+        { name: "NCR Systems", level: 85 },
+        { name: "Design Tools", level: 80 },
+        { name: "Communication", level: 90 },
+        { name: "Operations Management", level: 85 },
       ]
     }
   ];
@@ -46,7 +46,7 @@ export const Skills = () => {
             My <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Skills</span>
           </h2>
           <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-            A comprehensive overview of my technical skills and expertise
+            A comprehensive overview of my professional skills and expertise in engineering and technology
           </p>
         </motion.div>
 

@@ -5,21 +5,21 @@ export const About = () => {
   const timeline = [
     {
       year: "2023",
-      title: "Senior Full-Stack Developer",
-      company: "Tech Company",
-      description: "Leading development of scalable web applications"
+      title: "Line-in-Charge",
+      company: "NCR Corporation India Pvt Ltd",
+      description: "Leading operations and ensuring quality delivery in technology solutions"
     },
     {
-      year: "2021",
-      title: "UI/UX Designer & Developer",
-      company: "Design Agency",
-      description: "Creating user-centered design solutions"
+      year: "2020-2024",
+      title: "Bachelor of Engineering (ECE)",
+      company: "Dr.A.P.J. Institute of Technology",
+      description: "Specialized in Electronics and Communication Engineering"
     },
     {
-      year: "2019",
-      title: "Junior Developer",
-      company: "Startup",
-      description: "Started my journey in web development"
+      year: "2023",
+      title: "UI/UX Personal Project",
+      company: "Live Website Redesign",
+      description: "Redesigned and developed responsive web interfaces"
     }
   ];
 
@@ -37,9 +37,10 @@ export const About = () => {
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-            I'm a passionate developer and designer with over 4 years of experience creating 
-            digital experiences that are not only beautiful but also functional and user-friendly. 
-            I specialize in React, Node.js, and modern design principles.
+            I'm an Electronics and Communication Engineering graduate with a passion for technology 
+            and innovation. Currently working as a Line-in-Charge at NCR Corporation, I combine my 
+            technical expertise with leadership skills to deliver exceptional results. I'm also 
+            passionate about UI/UX design and web development.
           </p>
         </motion.div>
 
@@ -88,19 +89,27 @@ export const About = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <span className="text-slate-300">Full-Stack Web Development</span>
+                <span className="text-slate-300">Electronics & Communication Engineering</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <span className="text-slate-300">UI/UX Design & Prototyping</span>
+                <span className="text-slate-300">UI/UX Design & Web Development</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <span className="text-slate-300">Mobile App Development</span>
+                <span className="text-slate-300">Team Leadership & Operations</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <span className="text-slate-300">API Development & Integration</span>
+                <span className="text-slate-300">Problem Solving & Innovation</span>
+              </div>
+            </div>
+            
+            <div className="mt-6 pt-6 border-t border-slate-700">
+              <h4 className="text-lg font-semibold text-white mb-3">Languages</h4>
+              <div className="flex gap-2">
+                <span className="px-3 py-1 text-xs bg-purple-500/20 text-purple-300 rounded-full">Tamil</span>
+                <span className="px-3 py-1 text-xs bg-blue-500/20 text-blue-300 rounded-full">English</span>
               </div>
             </div>
           </motion.div>

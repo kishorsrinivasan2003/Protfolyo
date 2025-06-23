@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { ArrowDown, Github, Linkedin, Download } from "lucide-react";
 import { ThreeBackground } from "./ThreeBackground";
@@ -12,7 +11,7 @@ export const Hero = () => {
     // Create a downloadable resume link
     const link = document.createElement('a');
     link.href = '/resume.pdf'; // You'll need to add this file to your public folder
-    link.download = 'Kishor_Resume.pdf';
+    link.download = 'Kishor_S_Resume.pdf';
     link.click();
   };
 
@@ -35,7 +34,7 @@ export const Hero = () => {
           >
             Hi, I'm{" "}
             <span className="bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-              Kishor
+              Kishor S
             </span>
           </motion.h1>
           
@@ -45,7 +44,7 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            UI/UX Designer & Full-Stack Developer
+            Electronics & Communication Engineer | UI/UX Designer
           </motion.p>
           
           <motion.p
@@ -54,7 +53,7 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            Creating beautiful, functional, and user-centered digital experiences
+            Line-in-Charge at NCR Corporation | Passionate about technology and innovative solutions
           </motion.p>
           
           <motion.div
