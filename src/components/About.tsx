@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 
 export const About = () => {
@@ -38,7 +37,7 @@ export const About = () => {
           </h2>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
             I'm an Electronics and Communication Engineering graduate with a passion for technology 
-            and innovation. Currently working as a Line-in-Charge at NCR Corporation, I combine my 
+            and innovation. Previously worked as a Line-in-Charge at NCR Corporation, where I combined my 
             technical expertise with leadership skills to deliver exceptional results. I'm also 
             passionate about UI/UX design and web development.
           </p>
