@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Award, ExternalLink } from "lucide-react";
 
@@ -7,14 +6,14 @@ export const Certificates = () => {
     {
       title: "Digital Skills: User Experience",
       issuer: "Accenture",
-      year: "2023",
+      year: "2025",
       description: "Comprehensive certification covering user experience principles, design thinking, and digital transformation strategies.",
       skills: ["User Experience", "Design Thinking", "Digital Strategy"]
     },
     {
       title: "Figma UI/UX Design Essentials",
       issuer: "Udemy",
-      year: "2023",
+      year: "2025",
       description: "Complete course covering Figma fundamentals, UI/UX design principles, prototyping, and collaborative design workflows.",
       skills: ["Figma", "UI Design", "UX Design", "Prototyping"]
     }
