@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const About = () => {
   const timeline = [
     {
-      year: "2023",
+      year: "2023-2024",
       title: "Line-in-Charge",
       company: "NCR Corporation India Pvt Ltd",
       description: "Leading operations and ensuring quality delivery in technology solutions"
@@ -16,7 +16,7 @@ export const About = () => {
       description: "Specialized in Electronics and Communication Engineering"
     },
     {
-      year: "2023",
+      year: "2025",
       title: "UI/UX Personal Project",
       company: "Live Website Redesign",
       description: "Redesigned and developed responsive web interfaces"
