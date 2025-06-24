@@ -1,3 +1,4 @@
+
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone } from "lucide-react";
 
@@ -59,8 +60,8 @@ export const Contact = () => {
                   <MapPin className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-white">Current Role</h3>
-                  <p className="text-slate-400">Line-in-Charge, NCR Corporation</p>
+                  <h3 className="text-xl font-semibold text-white">Experience</h3>
+                  <p className="text-slate-400">Former Line-in-Charge, NCR Corporation</p>
                 </div>
               </div>
             </div>
