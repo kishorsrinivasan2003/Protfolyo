@@ -10,7 +10,7 @@ export const Hero = () => {
   const downloadResume = () => {
     // Create a downloadable resume link
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // You'll need to add this file to your public folder
+    link.href = '/kishor-resume.pdf';
     link.download = 'Kishor_S_Resume.pdf';
     link.click();
   };
