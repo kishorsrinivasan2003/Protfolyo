@@ -16,9 +16,9 @@ export const About = () => {
     },
     {
       year: "2025",
-      title: "UI/UX Personal Project",
-      company: "Live Website Redesign",
-      description: "Redesigned and developed responsive web interfaces"
+      title: "UI/UX Designer",
+      company: "3 month internship in Troudz",
+      description: "UI/UX design internship focused on user experience and interface design"
     }
   ];
 
