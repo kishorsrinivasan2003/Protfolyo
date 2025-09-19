@@ -36,10 +36,13 @@ export const About = () => {
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-            I'm an Electronics and Communication Engineering graduate with a passion for technology 
-            and innovation. Previously worked as a Line-in-Charge at NCR Corporation, where I combined my 
-            technical expertise with leadership skills to deliver exceptional results. I'm also 
-            passionate about UI/UX design and web development.
+            I'm an Electronics and Communication Engineering graduate with a strong interest in technology, 
+            design, and innovation. My journey began as a Line-in-Charge at NCR Corporation, where I gained 
+            hands-on experience in technical problem-solving, team coordination, and delivering results under pressure.
+            Over time, I discovered my passion for UI/UX design and web development, which allows me to combine 
+            creativity with technical skills to craft user-friendly digital solutions. I enjoy working on projects 
+            that bridge engineering, design, and software, and I am eager to keep learning and applying my skills 
+            to real-world challenges.
           </p>
         </motion.div>
 
