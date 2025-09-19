@@ -66,8 +66,7 @@ export const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white">Experience</h3>
-                  <p className="text-slate-400">
- Line-in-Charge, NCR Corporation</p>
+                  <p className="text-slate-400">UI/UX Designer, Troudz</p>
                 </div>
               </div>
             </div>
