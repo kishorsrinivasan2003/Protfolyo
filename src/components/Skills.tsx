@@ -18,6 +18,7 @@ export const Skills = () => {
         { name: "Electronics & Communication", level: 85 },
         { name: "UI/UX Design", level: 80 },
         { name: "Web Development", level: 75 },
+        { name: "HTML", level: 82 },
         { name: "Project Management", level: 80 },
       ]
     },
