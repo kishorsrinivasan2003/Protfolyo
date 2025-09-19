@@ -11,7 +11,7 @@ export const About = () => {
     {
       year: "2020-2024",
       title: "Bachelor of Engineering (ECE)",
-      company: "Dr.A.P.J. Institute of Technology",
+      company: "Dr.NGP Institute of Technology",
       description: "Specialized in Electronics and Communication Engineering"
     },
     {
