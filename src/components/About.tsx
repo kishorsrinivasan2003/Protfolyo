@@ -3,22 +3,28 @@ import { motion } from "framer-motion";
 export const About = () => {
   const timeline = [
     {
-      year: "2023-2024",
-      title: "Line-in-Charge",
-      company: "NCR Corporation India Pvt Ltd",
-      description: "Leading operations and ensuring quality delivery in technology solutions"
+      year: "2025",
+      title: "Software Development Intern",
+      company: "Troudz AI Labs, Bangalore",
+      description: "Developed full-stack features using Django and JavaScript, designed RESTful APIs, optimized database queries, and collaborated in an Agile environment."
     },
     {
       year: "2020-2024",
       title: "Bachelor of Engineering (ECE)",
-      company: "Dr.NGP Institute of Technology",
-      description: "Specialized in Electronics and Communication Engineering"
+      company: "Dr. N.G.P. Institute of Technology",
+      description: "Specialized in Electronics and Communication Engineering. CGPA: 7.54"
     },
     {
-      year: "2025",
-      title: "UI/UX Designer",
-      company: "3 month internship in Troudz",
-      description: "UI/UX design internship focused on user experience and interface design"
+      year: "2019-2020",
+      title: "HSC",
+      company: "Shanthinikethan Hr. Sec. School",
+      description: "Higher Secondary Certificate. Percentage: 53.5%"
+    },
+    {
+      year: "2017-2018",
+      title: "SSLC",
+      company: "Shanthinikethan Hr. Sec. School",
+      description: "Secondary School Leaving Certificate. Percentage: 63.8%"
     }
   ];
 
@@ -36,13 +42,10 @@ export const About = () => {
             About <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Me</span>
           </h2>
           <p className="text-lg text-slate-300 max-w-3xl mx-auto">
-            I'm an Electronics and Communication Engineering graduate with a strong interest in technology, 
-            design, and innovation. My journey began as a Line-in-Charge at NCR Corporation, where I gained 
-            hands-on experience in technical problem-solving, team coordination, and delivering results under pressure.
-            Over time, I discovered my passion for UI/UX design and web development, which allows me to combine 
-            creativity with technical skills to craft user-friendly digital solutions. I enjoy working on projects 
-            that bridge engineering, design, and software, and I am eager to keep learning and applying my skills 
-            to real-world challenges.
+            Electronics and Communication Engineering graduate with hands-on experience in Python, Django,
+            and JavaScript. Developed scalable web applications and REST APIs with a focus on performance
+            and efficiency. Seeking an entry-level Software Engineer role where I can contribute my
+            full-stack development skills and continue to grow.
           </p>
         </motion.div>
 
