@@ -94,27 +94,27 @@ export const About = () => {
             <div className="space-y-4">
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-purple-400 rounded-full"></div>
-                <span className="text-slate-300">Electronics & Communication Engineering</span>
+                <span className="text-slate-300">Python & Django Development</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-pink-400 rounded-full"></div>
-                <span className="text-slate-300">UI/UX Design & Web Development</span>
+                <span className="text-slate-300">ReactJS & Frontend Development</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                <span className="text-slate-300">Team Leadership & Operations</span>
+                <span className="text-slate-300">REST APIs & Database Design</span>
               </div>
               <div className="flex items-center gap-3">
                 <div className="w-2 h-2 bg-cyan-400 rounded-full"></div>
-                <span className="text-slate-300">Problem Solving & Innovation</span>
+                <span className="text-slate-300">Full Stack Web Applications</span>
               </div>
             </div>
             
             <div className="mt-6 pt-6 border-t border-slate-700">
               <h4 className="text-lg font-semibold text-white mb-3">Languages</h4>
               <div className="flex gap-2">
-                <span className="px-3 py-1 text-xs bg-purple-500/20 text-purple-300 rounded-full">Tamil</span>
-                <span className="px-3 py-1 text-xs bg-blue-500/20 text-blue-300 rounded-full">English</span>
+                <span className="px-3 py-1 text-xs bg-purple-500/20 text-purple-300 rounded-full">Tamil (Native)</span>
+                <span className="px-3 py-1 text-xs bg-blue-500/20 text-blue-300 rounded-full">English (Proficient)</span>
               </div>
             </div>
           </motion.div>
