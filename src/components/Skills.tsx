@@ -4,31 +4,28 @@ import { motion } from "framer-motion";
 export const Skills = () => {
   const skillCategories = [
     {
-      title: "Core Skills",
+      title: "Languages",
       skills: [
-        { name: "Teamwork", level: 95 },
-        { name: "Problem-solving", level: 90 },
-        { name: "Leadership", level: 88 },
-        { name: "Willingness to learn", level: 95 },
+        { name: "Python", level: 90 },
+        { name: "JavaScript", level: 85 },
       ]
     },
     {
-      title: "Technical Skills",
+      title: "Frameworks & Frontend",
       skills: [
-        { name: "Electronics & Communication", level: 85 },
-        { name: "UI/UX Design", level: 80 },
-        { name: "Web Development", level: 75 },
-        { name: "HTML", level: 82 },
-        { name: "Project Management", level: 80 },
+        { name: "Django", level: 88 },
+        { name: "ReactJS", level: 82 },
+        { name: "HTML", level: 90 },
+        { name: "CSS", level: 85 },
       ]
     },
     {
-      title: "Professional Tools",
+      title: "Databases & Tools",
       skills: [
-        { name: "NCR Systems", level: 85 },
-        { name: "Design Tools", level: 80 },
-        { name: "Communication", level: 90 },
-        { name: "Operations Management", level: 85 },
+        { name: "MySQL", level: 85 },
+        { name: "PostgreSQL", level: 80 },
+        { name: "Git", level: 85 },
+        { name: "GitHub", level: 88 },
       ]
     }
   ];
