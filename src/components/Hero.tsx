@@ -98,7 +98,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 1.0 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/kishorsrinivasan2003"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-white transition-colors"
@@ -107,7 +107,7 @@ export const Hero = () => {
               <Github size={24} />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/kishor-s"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-white transition-colors"
