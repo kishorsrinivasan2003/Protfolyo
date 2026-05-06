@@ -44,7 +44,7 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            Electronics & Communication Engineer | UI/UX Designer
+            Electronics & Communication Engineer | Python Full Stack Developer
           </motion.p>
           
           <motion.p
@@ -53,7 +53,7 @@ export const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
           >
-            UI/UX Designer at Troudz | Passionate about technology and innovative solutions
+            Building scalable web apps with Python, Django, and ReactJS | Seeking entry-level Software Engineer role
           </motion.p>
           
           <motion.div
@@ -98,7 +98,7 @@ export const Hero = () => {
             transition={{ duration: 0.8, delay: 1.0 }}
           >
             <motion.a
-              href="https://github.com"
+              href="https://github.com/kishorsrinivasan2003"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-white transition-colors"
@@ -107,7 +107,7 @@ export const Hero = () => {
               <Github size={24} />
             </motion.a>
             <motion.a
-              href="https://linkedin.com"
+              href="https://linkedin.com/in/kishor-s"
               target="_blank"
               rel="noopener noreferrer"
               className="text-slate-400 hover:text-white transition-colors"
